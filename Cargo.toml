@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+async-openai = "0.27.2"
+dotenv = "0.15.0"
+futures-util = "0.3.31"
+reqwest = "0.12.12"
+tokio = { version = "1.43.0", features = ["macros", "rt-multi-thread"] }
